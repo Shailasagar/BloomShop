@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Flower Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="hero.html">Home</a></li>
+                <li><a href="roses.html">Roses</a></li>
+                <li><a href="tulips.html">Tulips</a></li>
+                <li><a href="orchids.html">Orchids</a></li>
+                <li><a href="daisies.html">Daisies</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+        <section id="hero" class="hero">
+            <h2>Flowers Make Memories!</h2>
+            
+            <form id="searchForm">
+              <input type="text" name="query" placeholder="Search for flowers...">
+              <input type="number" id="minPrice" placeholder="Min Price">
+              <input type="number" id="maxPrice" placeholder="Max Price">
+              <button type="submit">Search</button>
+            </form>
+          </section>
+          <section id="roses" class="product-section" class="roses">
+            <h2 style="color:#ff1493">Roses</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="https://th.bing.com/th?id=OIP.N_8Zvpi3XaB4gBQL0ep7swHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2" >
+                    <p>Red Roses</p>
+                    <p>$xxx</p>
+                    <button class="add-to-cart" data-product="Red Roses">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://th.bing.com/th?id=OIP.PZtvXqJDNTwv4TxHn6NjWwAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2" alt="White Roses">
+                    <p>White Roses</p>
+                    <p>$xxx</p>
+                    <button class="add-to-cart" data-product="White Roses">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://thumbs.dreamstime.com/b/bouquet-pink-roses-pot-37743915.jpg" >
+                    <p>Pink Roses</p>
+                    <p>$xxx</p>
+                    <button class="add-to-cart" data-product="Pink Roses">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    
+
+   
+    <section id="tulips" class="product-section" class="tulips">
+        <h2 style="color:#ff1493" >Tulips</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://th.bing.com/th?id=OIP.LfJAoIynXCfQ-mjgPo_KSQHaJC&w=226&h=276&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2" alt="Yellow Tulips">
+                <p>Yellow Tulips</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="Yellow Tulips">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://th.bing.com/th/id/OIP.0sCc6qwYTTQdWHQcUqJuPgHaHa?w=492&h=492&rs=1&pid=ImgDetMain" alt="Pink Tulips">
+                <p>Pink Tulips</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="Pink Tulips">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://th.bing.com/th/id/OIP.rbDvAsh_YVGTKKdciS8IyQAAAA?w=474&h=474&rs=1&pid=ImgDetMain" alt="White Tulips">
+                <p>White Tulips</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="White Tulips">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="orchids" class="product-section" class="orchids">
+        <h2 style="color:#ff1493" >Orchids</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://th.bing.com/th/id/OIP.xgyWIFA7_V765Q1zi9PQaQAAAA?rs=1&pid=ImgDetMain" alt="Purple Orchids">
+                <p>Purple Orchids</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="Purple Orchids">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://th.bing.com/th?id=OIP.e_zHqWek7PQVmPLwOBjG_gAAAA&w=220&h=283&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2" alt="White Orchids">
+                <p>White Orchids</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="White Orchids">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://th.bing.com/th/id/R.d385cb263e3bdbbb8fdf59c15f40751b?rik=BqzJHw7fmaNV6Q&riu=http%3a%2f%2fwww.cakenflowers.com%2f___userfiles%2fcontent_photo%2f503.jpg&ehk=Qc9hYKod7UtigaPYQu27qDGPA4CQpCakYzyfPawxavY%3d&risl=&pid=ImgRaw&r=0" alt="Yellow Orchids">
+                <p>Yellow Orchids</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="Yellow Orchids">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="daisies" class="product-section" class="daisies">
+        <h2 style="color:#ff1493" >Daisies</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://th.bing.com/th?id=OIP.Q0ro1IOOrhFQvj9gLAwLEwHaIp&w=231&h=270&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2" height=350  width=560.99>
+                <p>White Daisies</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="White Daisies">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://cdn.shopify.com/s/files/1/1129/6096/products/Single_stem_yellow_daisy_1024x1024.jpg?v=1511287650"  height= 350 width=560.99 >
+                <p>Yellow Daisies</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="Yellow Daisies">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://th.bing.com/th/id/OIP.EIzfBpyxhWxi5DQxas_z2wHaF_?rs=1&pid=ImgDetMain" alt="RedDaisies">
+                <p>Red Daisies</p>
+                <p>$xxx</p>
+                <button class="add-to-cart" data-product="Red Daisies">Add to Cart</button>
+            </div>
+        </div>
+        <section id="contact" class="contact">
+            <h2 id="h2">Contact Us</h2>
+            <p class="details">If you have any inquiries or need assistance, feel free to contact us:</p>
+            <p class="details">Email: shailasagar09@gmail.com</p>
+            <p class="details">Phone: +62 1234567890</p>
+          </section>
+        
+        
+
+    <footer>
+        <p>&copy; 2024 Flower Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

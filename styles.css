@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: cursive;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.product-section {
+    padding: 20px;
+    background-color: #fff0f5;
+    border-bottom: 1px solid #ccc;
+    color:#ff69b4;
+    font-size: larger;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+button.add-to-cart {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.add-to-cart:hover {
+    background-color: #ff1493;
+}
+
+
+.hero {
+    background-color: #fff0f5;
+    color:#ff1493;
+    text-align: left;
+    padding: 150px 0;
+    background-image:url("https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Flowers-PNG/Vase_with_Tulips_PNG_Clipart.png?m=1629831661") ;
+    background-repeat:no-repeat ;
+    background-position: right;
+   
+
+}
+
+.hero h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.hero form {
+    margin-top: 40px;
+}
+
+.hero input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color:#ff1493;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact {
+    padding: 100px 0;
+}
+
+.contact h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff1493;
+}
+
+.contact p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
